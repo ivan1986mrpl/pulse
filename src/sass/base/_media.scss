@@ -57,12 +57,9 @@
 
 
 @media (max-width: 575px) {
-    .promo {
-        .promo__wrapper {
-            padding: 0px 7px 0px 7px;
-        }
+    .promo {        
         .header__logo {
-            width: 200px;
+            width: 165px;
         }        
         .header__official {
             display: none;
@@ -71,10 +68,10 @@
             font-size: 27px;
         }
         .promo__subheader {
-            font-size: 16px;
+            font-size: 14px;
         }
         .promo__icons {
-            width: 370px;
+            width: 320px;
         }
         .promo__icon {
             font-size: 12px;
