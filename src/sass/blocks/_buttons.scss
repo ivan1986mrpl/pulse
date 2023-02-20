@@ -21,8 +21,15 @@
         height: 58px;
         font-size: 16px;         
     }
+    &_mini {
+        width: 135px;
+        height: 44px;
+        font-size: 14px;        
+    }    
     &:hover {
         background: $btnhover;
-        color: #3f3d3d
+        color: #3f3d3d; 
+        border: none;
+        box-shadow: 3px 3px 0px $main-color;
     }
 }
