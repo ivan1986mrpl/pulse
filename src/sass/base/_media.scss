@@ -130,21 +130,12 @@
         }
     }
 }
-.carousel {
-    &__inner {
-        div {
-            img {
-                width: 380px;
-            }
-        }
-    }
-}
 .catalog {
     .title {
         font-size: 28px;
     }
     &__tabs {
-        flex-direction: column;
+        
     }
     &__tab {
         margin-bottom: 15px;
@@ -152,10 +143,7 @@
         font-size: 19px;
     }
 }
-.feed {
-    &__item {
-        flex-direction: column;
-    }
+.feed {    
     &__img {
         display: block;
         margin: 0 auto;
