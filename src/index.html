@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -72,7 +73,7 @@
                         бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
                 <div class="advantages__item">
-                    <img class="advantages__icon" src="icons/heart.png" alt="icons">
+                    <img class="advantages__icon advantages__icon_animated" src="icons/heart.png" alt="icons">
                     <div class="advantages__subtitle">Заботимся о здоровье</div>
                     <div class="advantages__descr">Мы работаем для того, <br> чтобы Ваши занятия спортом шли на пользу
                         Вашему здоровью и были в радость Вам и Вашим близким!</div>
@@ -103,7 +104,7 @@
         </div>
     </section>
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div><img src="img/sl№1.jpg" alt="slide"></div>
@@ -111,7 +112,7 @@
                 <div><img src="img/sl№3.jpg" alt="slide"></div>
             </div>
         </div>
-    </section>
+    </div>
 
 
     <section class="catalog">
@@ -130,9 +131,7 @@
                 </li>
             </ul>
 
-
             <div class="catalog__content catalog__content_active">
-
 
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
@@ -396,7 +395,7 @@
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
 
-            <div class="feed__item">
+            <div class="feed__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/photo_1.png" alt="Ирина Иванченко" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Ирина Иванченко</div>
@@ -412,7 +411,7 @@
                 </div>
             </div>
 
-            <div class="feed__item">
+            <div class="feed__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/photo_2.png" alt="Иван Сёмочкин" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Иван Сёмочкин</div>
@@ -425,7 +424,7 @@
                 </div>
             </div>
 
-            <div class="feed__item">
+            <div class="feed__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                 <img src="img/photo_3.png" alt="Юлия Дашкина" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Юлия Дашкина</div>
@@ -451,9 +450,12 @@
             <address class="footer__addr">вулиця Андрeя Малишка, 1, Киeв</address>
             <a class="footer__phone" href="tel:800000000000">38(000)000-00-00</a>
             <div class="footer__social">
-                <a href="#" class="footer__social-item"><img src="icons/facebook.svg" alt="facebook"></a>
-                <a href="#" class="footer__social-item"><img src="icons/instagram.svg" alt="instagram"></a>
-                <a href="#" class="footer__social-item"><img src="icons/pinterest.svg" alt="pinterest"></a>
+                <a href="https://uk-ua.facebook.com/" class="footer__social-item"><img src="icons/facebook.svg"
+                        alt="facebook"></a>
+                <a href="https://www.instagram.com/" class="footer__social-item"><img src="icons/instagram.svg"
+                        alt="instagram"></a>
+                <a href="https://ru.pinterest.com/" class="footer__social-item"><img src="icons/pinterest.svg"
+                        alt="pinterest"></a>
             </div>
         </div>
     </footer>
@@ -486,9 +488,12 @@
         <div class="modal modal_mini" id="thanks">
             <div class="modal__close">&times;</div>
             <div class="modal__subtitle">Спасибо за вашу заявку!</div>
-            <div class="modal__deskr">Наш менеджер свяжется с вами <br> в ближайшее время!</div>            
+            <div class="modal__deskr">Наш менеджер свяжется с вами <br> в ближайшее время!</div>
         </div>
     </div>
+
+    <a href="#up" class="pageup"><img src="icons/circle-chevron-up-solid.svg" alt="up"></a>
+
 
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -496,6 +501,7 @@
     <script src="JS/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
